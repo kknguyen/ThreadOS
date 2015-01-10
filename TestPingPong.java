@@ -1,16 +1,3 @@
-//*****************************************************************************
-//**  File: TestPingPong.java
-//**  Date: October 2011
-//**  Author: Joe McCarthy
-//**
-//**  Description: A demonstration of using SysLib simulated system calls 
-//**    SysLib.exec() and SysLib.join()
-//**    to execute either sequential or concurrent processes.
-//**    After this program has been byte-compiled (--> TestPingPong.class),
-//**      Boot ThreadOS (via 'java Boot' at  Linux shell prompt),
-//**      and run this program via the Loader ('l TestPingPong').
-//*****************************************************************************
-
 public class TestPingPong extends Thread {
 
     public TestPingPong() {

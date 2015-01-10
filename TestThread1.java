@@ -1,15 +1,3 @@
-/**
- * TestThread.java
- * 
- * This thread is used to demonstrate how the scheduler operates.
- * This thread runs forever, periodically displaying its name.
- *
- * @author Greg Gagne, Peter Galvin, Avi Silberschatz
- * @version 1.0 - July 15, 1999.
- * Copyright 2000 by Greg Gagne, Peter Galvin, Avi Silberschatz
- * Applied Operating Systems Concepts - John Wiley and Sons, Inc.
- */
-
 class TestThread1 extends Thread
 {
 private String name;
